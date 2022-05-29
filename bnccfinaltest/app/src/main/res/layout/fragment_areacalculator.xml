@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Areacalculator">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find area of Rectangle or Triangle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find area of Circle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="284dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/basetextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base: "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="44dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/radiustextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base: "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="333dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/heighttextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height: "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/basevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="35dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Areaofsqtrtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area: "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="167dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/areaofcircletextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area: "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="399dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/areasqtrvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="167dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/areascirclevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="399dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/heightvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="92dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/radiusvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="325dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttontriangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calctri"
+        android:text="Calculate Triangle"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/buttonsquare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcsquare"
+        android:text="Calculate Square"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/buttoncircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Circle"
+        android:onClick="calccircle"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="460dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

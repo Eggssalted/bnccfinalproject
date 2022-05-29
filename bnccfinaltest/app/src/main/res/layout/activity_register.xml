@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Register">
+    <TextView
+        android:id="@+id/registertitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Register New Account"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerid"
+        android:background="#30ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/registertitle"
+        android:hint="Id Bimbel"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registeremail"
+        android:background="#30ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/registerid"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registername"
+        android:background="#30ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/registeremail"
+        android:hint="Name"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerpassword"
+        android:background="#30ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/registername"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerconfirmpassword"
+        android:background="#30ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/registerpassword"
+        android:hint="Confirm Password"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Register"
+        app:layout_constraintTop_toBottomOf="@id/registerconfirmpassword"
+        tools:layout_editor_absoluteX="161dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
